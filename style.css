@@ -123,6 +123,26 @@ body {
     background-color: #eef2ff;
 }
 
+.tabel-data .kolom-no {
+    width: 6%;
+}
+
+.tabel-data .kolom-judul {
+    width: 34%;
+}
+
+.tabel-data .kolom-penulis {
+    width: 25%;
+}
+
+.tabel-data .kolom-tahun {
+    width: 10%;
+}
+
+.tabel-data .kolom-kategori {
+    width: 25%;
+}
+
 /* 5. Footer */
 .kaki {
     padding: 12px 24px;
@@ -131,9 +151,8 @@ body {
     color: #64748b;
 }
 
-/* 6. Satu breakpoint: lebar 900px ke bawah */
+/* 6. Satu breakpoint: lebar 720px ke bawah */
 @media (max-width: 768px) {
-
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -172,6 +191,5 @@ body {
 
     .tabel-data .kolom-penulis {
         display: none;
-
     }
 }
